@@ -3461,10 +3461,6 @@ input, select, textarea {
 				min-height: 75vh;
 			}
 
-				#intro p br {
-					display: none;
-				}
-
 				#intro + #header {
 					margin-top: 0;
 				}
