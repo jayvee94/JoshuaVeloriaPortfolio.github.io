@@ -2983,13 +2983,7 @@ input, select, textarea {
 					right: 0;
 				}
 
-		@media screen and (max-width: 980px) {
 
-			header br {
-				display: none;
-			}
-
-		}
 
 		@media screen and (max-width: 736px) {
 
@@ -3823,7 +3817,7 @@ input, select, textarea {
 			}
 
 			@media screen and (max-width: 1280px) {
-
+				
 				#main > .post {
 					padding: 6rem 4rem 4rem 4rem ;
 				}
@@ -3831,7 +3825,7 @@ input, select, textarea {
 			}
 
 			@media screen and (max-width: 736px) {
-
+				
 				#main > .post {
 					padding: 4rem 2rem 2rem 2rem ;
 				}
@@ -3908,7 +3902,7 @@ input, select, textarea {
 				}
 
 			@media screen and (max-width: 980px) {
-
+				
 				#main > .posts > * {
 					width: 50%;
 				}
