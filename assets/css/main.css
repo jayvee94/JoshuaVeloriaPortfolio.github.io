@@ -3457,7 +3457,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			#intro {
-				padding: 2rem 2rem 2rem 4rem ;
+				padding: 4rem 4rem 2rem 4rem ;
 				min-height: 75vh;
 			}
 
@@ -3474,7 +3474,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#intro {
-				padding: 2rem 2rem 1rem 2rem ;
+				padding: 3rem 2rem 1rem 2rem ;
 				min-height: 75vh;
 			}
 
