@@ -3314,7 +3314,7 @@ input, select, textarea {
 		text-align: center;
 		z-index: 1;
 		min-height: 100vh;
-		margin-top: 0;
+		margin-top: 0
 	}
 
 		#intro input, #intro select, #intro textarea {
@@ -3391,7 +3391,7 @@ input, select, textarea {
 
 		#intro h1 {
 			margin-top: 0;
-			font-size: 5rem;
+			font-size: 8rem;
 			line-height: 1;
 		}
 
@@ -3403,7 +3403,7 @@ input, select, textarea {
 		}
 
 		#intro + #header {
-			margin-top: -20rem;
+			margin-top: 0;
 		}
 
 			#intro + #header .logo {
@@ -3457,8 +3457,8 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			#intro {
-				padding: 4rem 4rem 2rem 4rem ;
-				min-height: 90vh;
+				padding: 2rem 2rem 2rem 4rem ;
+				min-height: 70vh;
 			}
 
 				#intro p br {
@@ -3466,7 +3466,7 @@ input, select, textarea {
 				}
 
 				#intro + #header {
-					margin-top: -14rem;
+					margin-top: 0;
 				}
 
 		}
@@ -3474,8 +3474,8 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#intro {
-				padding: 3rem 2rem 1rem 2rem ;
-				min-height: 80vh;
+				padding: 2rem 2rem 1rem 2rem ;
+				min-height: 70vh;
 			}
 
 				#intro h1 {
