@@ -2909,6 +2909,7 @@ input, select, textarea {
 	}
 
 	header {
+		margin-top: 0;
 		cursor: default;
 	}
 
@@ -2925,6 +2926,7 @@ input, select, textarea {
 		}
 
 		header > h1 + p {
+			margin-top: 0;
 			font-size: 1.1rem;
 			margin-top: -0.5rem;
 			line-height: 2;
