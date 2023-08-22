@@ -2094,7 +2094,7 @@ input, select, textarea {
 		font-size: 0.8rem;
 		font-weight: 900;
 		/* letter-spacing: 0.075em; */
-		height: 7vw;
+		/* height: 7vw; */
 		line-height: 1;
 		padding: 0 2rem;
 		text-align: center;
@@ -2181,12 +2181,12 @@ input, select, textarea {
 		input[type="button"].large,
 		button.large,
 		.button.large {
-			font-size: 7vw;
+			font-size: 4vw;
 			/* height: 7.1vw; */
 			/* width: 7.1vw; */
 			/* line-height: 1; */
-			margin: 2vw 0vw 0vw 0vw;
-			padding: 0vw 0vw 0vw 0vw;
+			margin: 5vw 0vw 0vw 0vw;
+			padding: 1vw 1vw 1vw 1vw;
 		}
 
 		@media screen and (max-width: 980px) {
@@ -2201,8 +2201,8 @@ input, select, textarea {
 			button,
 			.button {
 				font-size: 0.9rem;
-				height: 3.25rem;
-				line-height: 3.25rem;
+				/* height: 3.25rem; */
+				/* line-height: 3.25rem; */
 			}
 
 				input[type="submit"].large,
@@ -2210,9 +2210,9 @@ input, select, textarea {
 				input[type="button"].large,
 				button.large,
 				.button.large {
-					font-size: 1rem;
-					height: 3.75rem;
-					line-height: 3.75rem;
+					font-size: 4vw;
+					/* height: 3.75rem; */
+					/* line-height: 3.75rem; */
 				}
 
 		}
@@ -2664,9 +2664,9 @@ input, select, textarea {
 
 		.image.main {
 			display: flex;
-			margin: 0rem 0;
-			width: 95vw;
-			/* margin: 0vw 0vw 0vw 0vw; */
+			/* margin: 4rem 0; */
+			width: 90vw;
+			margin: 0vw 0vw 0vw 0vw;
 			padding: 0vw 0vw 0vw 0vw;
 			justify-content: center;
 		}
@@ -2676,8 +2676,8 @@ input, select, textarea {
 			}
 
 			.image.main img {
-				width: 90vw;
-				height: 33vw;
+				width: 75vw;
+				height: 35vw;
 			}
 
 		@media screen and (max-width: 736px) {
@@ -2997,8 +2997,10 @@ input, select, textarea {
 		}
 
 		header.major {
-			margin: 0 0 0rem 0;
+			margin: 0 0vw 0rem 0;
 			text-align: center;
+			/* display: flex; */
+			/* justify-content: center; */
 		}
 
 			header.major > :last-child {
@@ -3007,7 +3009,7 @@ input, select, textarea {
 
 			header.major > p {
 				margin-top: 0px;
-				text-align: left;
+				text-align: center;
 				line-height: 1.7777777;
 			}
 
@@ -3629,6 +3631,12 @@ input, select, textarea {
 				/* border: 1px; */
 				margin: 0vw 0vw 0vw 0vw;
 				padding: 0vh 0vh 27.5vh 0vh;
+			}
+			header a {
+				font-size: 4vw;
+			}
+			i {
+				font-size: 4vw;
 			}
 		}
 
@@ -4453,7 +4461,7 @@ input, select, textarea {
 			letter-spacing: 0.075em;
 			line-height: 1;
 			padding: 1vh 1vh 1vh 1vh;
-			margin: 10vw 0vh 0vh 0vh;
+			margin: 15vh 0vh 0vh 0vh;
 			padding: 1vh 1vh 1vh 1vh;
 			text-transform: uppercase;
 			visibility: visible;
@@ -4506,7 +4514,7 @@ input, select, textarea {
 		height: 5vw;
 		line-height: 0;
 		/* max-width: 100vw; */
-		margin: 10vw auto 0 auto;
+		margin: 15vh auto 0 auto;
 		overflow: hidden;
 		position: relative;
 		max-width: 90%;
@@ -4720,8 +4728,8 @@ input, select, textarea {
 			@media screen and (max-width: 736px) {
 				
 				#main > .post {
-					padding: 4rem 2rem 2rem 2rem;
-					margin: 33vh 0vh 0vh 0vh;
+					/* padding: 4rem 2rem 2rem 2rem; */
+					margin: 0vh 0vh 0vh 0vh;
 				}
 
 					#main > .post header.major > .date {
