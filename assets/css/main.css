@@ -3495,6 +3495,10 @@ input, select, textarea {
 				transform: translateY(0);
 				opacity: 1;
 				visibility: visible;
+				display: flex;
+				/* justify-content: flex-start; */
+				/* justify-content: center; */
+				flex-direction: column;
 			}
 
 		body.is-preload #intro {
@@ -3930,6 +3934,9 @@ input, select, textarea {
 				white-space: nowrap;
 				font-size: 2.8vw;
 				border-radius: 50%;
+			}
+			i{
+				font-size: 2vw;
 			}
 		}
 		/*
@@ -4446,7 +4453,7 @@ input, select, textarea {
 			letter-spacing: 0.075em;
 			line-height: 1;
 			padding: 1vh 1vh 1vh 1vh;
-			margin: 27vh 0vh 0vh 0vh;
+			margin: 10vw 0vh 0vh 0vh;
 			padding: 1vh 1vh 1vh 1vh;
 			text-transform: uppercase;
 			visibility: visible;
@@ -4499,13 +4506,14 @@ input, select, textarea {
 		height: 5vw;
 		line-height: 0;
 		/* max-width: 100vw; */
-		margin: 27vw auto 0 auto;
+		margin: 10vw auto 0 auto;
 		overflow: hidden;
 		position: relative;
-		max-width: 95vw;
+		max-width: 90%;
 		z-index: 2;
 		font-size: 0vw;
 		align-items: center;
+		/* margin: 0vw 0vw 0vw 0vw; */
 		padding: 0vw 0vw 0vw 0vw;
 	}
 
@@ -4657,10 +4665,10 @@ input, select, textarea {
 		position: relative;
 		/* margin: 0 auto; */
 		width: calc(100% - 4rem);
-		max-width: 95%;
+		max-width: 90%;
 		z-index: 2;
 		margin: 0vw auto 0rem auto;
-		padding: 27vh 0vh 0vh 0vh;
+		padding: 0vh 0vh 0vh 0vh;
 	}
 
 		#main > * {
@@ -4703,8 +4711,8 @@ input, select, textarea {
 				
 				#main > .post {
 					/* padding: 6rem 4rem 4rem 4rem; */
-					margin: 33vh 0vh 0vh 0vh;
-					padding: 6rem 4rem 4rem 4rem;
+					margin: 0vh 0vh 0vh 0vh;
+					/* padding: 6rem 4rem 4rem 4rem; */
 				}
 
 			}
@@ -5593,4 +5601,4 @@ input, select, textarea {
 
 	}
 
-	
+		
