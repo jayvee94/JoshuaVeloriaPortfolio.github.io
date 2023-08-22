@@ -4657,15 +4657,15 @@ input, select, textarea {
 			flex-shrink: 0;
 			margin-bottom: 0;
 		}
-
+		/*
 		@media screen and (max-width: 980px) {
 
 			#nav {
-				display: none;
+				display: none; 
 			}
 
 		}
-
+		*/
 /* Main */
 
 	#main {
