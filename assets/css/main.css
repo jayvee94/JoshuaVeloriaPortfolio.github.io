@@ -3959,8 +3959,8 @@ input, select, textarea {
 				/* margin-left: 0rem; */
 				/* padding-left: 0; */
 				/* margin-top: auto; */
-				margin: -4.36vw 0vw 0vw 0vw;
-				padding: 0vh 0vw 0vw 79vw;
+				margin: -4.36vw 0vw 0vw 79vw;
+				padding: 0vh 0vw 0vw 0vw;
 				/* overflow: hidden; */
 			}
 			#intro h1 {
