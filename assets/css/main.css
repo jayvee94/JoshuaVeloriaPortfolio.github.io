@@ -3617,7 +3617,7 @@ input, select, textarea {
 				font-size: 2.1vw;
 				line-height: 4;
 				margin: 0vh 0vw 0vh 0vw;
-				padding: 0vh 0vw 7vh 36.1vw;
+				padding: 0vh 0vw 7vh 45.1vw;
 			}
 
 			
@@ -3717,7 +3717,7 @@ input, select, textarea {
 				font-size: 2.1vw;
 				line-height: 4;
 				margin: 0vw 0vw 0vh 0vw;
-				padding: 0vw 0vh 7vh 36.1vw;
+				padding: 0vw 0vh 7vh 45.1vw;
 				/* display: flex; */
 			}
 
@@ -3763,8 +3763,10 @@ input, select, textarea {
 			#intro p {
 				font-size: 0.944vh;
 				line-height: 4;
-				margin: 0vw -36vw 0vh 0vw;
-				padding: 0vw 0vh 7vh 0vh;
+				margin: 0vw 0vw 0vh 0vw;
+				/* margin: 0vw 0vh 0vw 0vh; */
+				padding: 0vw 0vh 7vh 36.1vw;
+				/* padding: 0vw 0vh 0vh 21vh; */
 				/* display: flex; */
 			}
 
@@ -3810,8 +3812,8 @@ input, select, textarea {
 			#intro p {
 				font-size: 0.944vh;
 				line-height: 4;
-				margin: 0vw -28.1vw 0vh 0vw;
-				padding: 0vw 0vh 7vh 0vh;
+				margin: 0vw 0vw 0vh 0vw;
+				padding: 0vw 0vh 7vh 28.1vw;
 				/* display: flex; */
 			}
 
@@ -3857,8 +3859,8 @@ input, select, textarea {
 			#intro p {
 				font-size: 0.944vh;
 				line-height: 4;
-				margin: 0vw -20.1vw 0vh 0vw;
-				padding: 0vw 0vh 7vh 0vh;
+				margin: 0vw 0vw 0vh 0vw;
+				padding: 0vw 0vh 7vw 20.1vw;
 				/* display: flex; */
 			}
 
@@ -3898,8 +3900,8 @@ input, select, textarea {
 				font-size: 6.4vh;
 				/* line-height: 0vh; */
 				margin: 0vw 0vw 0vw 0vw;
-				padding: 0vh 0vh 8vh 1.7vh;
-				text-align: left;
+				padding: 0vh 0vh 8vh 0vh;
+				text-align: center;
 			}
 			#intro p {
 				font-size: 0.944vh;
@@ -3975,7 +3977,7 @@ input, select, textarea {
 				font-size: 1.4vw;
 				line-height: 2;
 				margin: 0vw 0vw 0vw 0vw;
-				padding: 16vh 0vw 0vh 23vw;
+				padding: 16vh 0vw 0vh 38vw;
 			}
 
 			#intro {
