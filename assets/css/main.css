@@ -3611,13 +3611,18 @@ input, select, textarea {
 				font-size: 7.4vw;
 				/* line-height: 0vh; */
 				margin: 0vw 0vw 0vw 0vw;
-				padding: 0vh 0vh 10vh 0vh;
+				padding: 0vh 3.5vw 10vh 3.5vw;
+				width: 100%;
+				justify-content: center;
 			}
 			#intro p {
 				font-size: 2.1vw;
 				line-height: 4;
 				margin: 0vh 0vw 0vh 0vw;
-				padding: 0vh 0vw 7vh 45.1vw;
+				padding: 0vh 4vw 7vh 0vw;
+				width: 100vw;
+				text-align: right;
+				/* justify-content: center; */
 			}
 
 			
@@ -3702,6 +3707,12 @@ input, select, textarea {
 			    margin: 0rem 5vw 0vh 5vw;
 			    padding: 0vh 0vh 15vw 0vh;
 			}
+			#intro strong {
+				font-size: 2.1vw;
+				/* line-height: 2; */
+				/* margin: 0vw 0vw 0vw 0vw; */
+				/* padding: 16vh 0vw 0vh 38vw; */
+			}
 		}
 
 /* PORTRAIT #2 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 2 / 5~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -3717,8 +3728,14 @@ input, select, textarea {
 				font-size: 2.1vw;
 				line-height: 4;
 				margin: 0vw 0vw 0vh 0vw;
-				padding: 0vw 0vh 7vh 45.1vw;
+				padding: 0vw 0vh 7vh 36vw;
+				/* padding: 0; */
 				/* display: flex; */
+				flex-direction: column;
+				/* justify-content: center; */
+				/* display: block; */
+				/* display: flex; */
+				/* max-height: 100vw; */
 			}
 
 			
@@ -3751,10 +3768,29 @@ input, select, textarea {
 				margin: 0vw 0vw 0vw 0vw;
 				padding: 0vh 0vh 27.5vh 0vh;
 			}
+			#intro b {
+			    font-size: 2.1vw;
+			    text-align: center;
+			    line-height: 4;
+			}
+			#intro p {
+			    font-size: 2.1vw;
+			    line-height: 4;
+			    margin: 0vh 0vw 0vh 0vw;
+			    padding: 0vh 4vw 7vh 0vw;
+			    width: 100vw;
+			    text-align: right;
+			}
+			#intro strong {
+			    font-size: 2.1vw;
+			}
 		}
+
+
+
 		@media screen and (max-width: 45vh) and (orientation:portrait) {
 			#intro h1 {
-				font-size: 6.4vh;
+				font-size: 14vw;
 				/* line-height: 0vh; */
 				margin: 0vw 0vw 0vw 0vw;
 				padding: 0vh 0vh 8vh 1.7vh;
@@ -3800,10 +3836,22 @@ input, select, textarea {
 				margin: 0vw 0vw 0vw 0vw;
 				padding: 0vh 0vh 27.5vh 0vh;
 			}
+			#intro p {
+			    font-size: 0.944vh;
+			    line-height: 4;
+			    margin: 0vh 0vw 0vh 0vw;
+			    padding: 0vh 4vw 7vh 0vw;
+			    width: 100vw;
+			    text-align: right;
+			}
+			#intro strong {
+			    font-size: 0.944vh;
+			}
 		}
 		@media screen and (max-width: 40vh) and (orientation:portrait) {
 			#intro h1 {
-				font-size: 6.4vh;
+				font-size: 5.6vh;
+				/* min-width: auto; */
 				/* line-height: 0vh; */
 				margin: 0vw 0vw 0vw 0vw;
 				padding: 0vh 0vh 8vh 1.7vh;
@@ -3813,7 +3861,7 @@ input, select, textarea {
 				font-size: 0.944vh;
 				line-height: 4;
 				margin: 0vw 0vw 0vh 0vw;
-				padding: 0vw 0vh 7vh 28.1vw;
+				padding: 0vw 0vh 7vh 19vw;
 				/* display: flex; */
 			}
 
@@ -3846,11 +3894,22 @@ input, select, textarea {
 				/* border: 1px; */
 				margin: 0vw 0vw 0vw 0vw;
 				padding: 0vh 0vh 27.5vh 0vh;
+			}
+			#intro p {
+			    font-size: 0.944vh;
+			    line-height: 4;
+			    margin: 0vh 0vw 0vh 0vw;
+			    padding: 0vh 4vw 7vh 0vw;
+			    width: 100vw;
+			    text-align: right;
+			}
+			#intro strong {
+			    font-size: 0.944vh;
 			}
 		}
 		@media screen and (max-width: 35vh) and (orientation:portrait) {
 			#intro h1 {
-				font-size: 6.4vh;
+				font-size: 5.6vh;
 				/* line-height: 0vh; */
 				margin: 0vw 0vw 0vw 0vw;
 				padding: 0vh 0vh 8vh 1.7vh;
@@ -3860,7 +3919,7 @@ input, select, textarea {
 				font-size: 0.944vh;
 				line-height: 4;
 				margin: 0vw 0vw 0vh 0vw;
-				padding: 0vw 0vh 7vw 20.1vw;
+				padding: 0vw 0vh 7vw 11vw;
 				/* display: flex; */
 			}
 
@@ -3894,10 +3953,23 @@ input, select, textarea {
 				margin: 0vw 0vw 0vw 0vw;
 				padding: 0vh 0vh 27.5vh 0vh;
 			}
+			#intro p {
+			    font-size: 0.944vh;
+			    line-height: 4;
+			    margin: 0vh 0vw 0vh 0vw;
+			    padding: 0vh 4vw 7vh 0vw;
+			    width: 100vw;
+			    text-align: right;
+			}
+			#intro strong {
+			    font-size: 0.944vh;
+			}
 		}
+
+				
 		@media screen and (max-width: 30vh) and (orientation:portrait) {
 			#intro h1 {
-				font-size: 6.4vh;
+				font-size: 5.6vh;
 				/* line-height: 0vh; */
 				margin: 0vw 0vw 0vw 0vw;
 				padding: 0vh 0vh 8vh 0vh;
@@ -3945,6 +4017,24 @@ input, select, textarea {
 				margin: 0vw 0vw 0vw 0vw;
 				padding: 0vh 0vh 27.5vh 0vh;
 			}
+			#intro p {
+			    font-size: 0.944vh;
+			    line-height: 4;
+			    margin: 0vw 0vw 0vh 0vw;
+			    padding: 0vw 0vh 7vh 0vh;
+			    /* min-width: 100%; */
+			    text-align: center;
+			    /* white-space: nowrap; */
+			    /* display: flex; */
+			    /* flex-direction: column; */
+			    /* justify-content: center; */
+			    white-space: nowrap;
+			    width: auto;
+			}
+			#intro strong {
+			    font-size: 0.944vh;
+			    white-space: nowrap;
+			}
 			
 		}
 /* LANDSCAPE #1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 3 / 5~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -3977,7 +4067,7 @@ input, select, textarea {
 				font-size: 1.4vw;
 				line-height: 2;
 				margin: 0vw 0vw 0vw 0vw;
-				padding: 16vh 0vw 0vh 38vw;
+				padding: 16vh 0vw 0vh 35vw;
 			}
 
 			#intro {
@@ -4049,6 +4139,12 @@ input, select, textarea {
 			    margin: 0rem 5vw 0vh 5vw;
 			    padding: 0vh 0vh 15vw 0vh;
 			}
+			#intro b {
+				font-size: 1.4vw;
+				/* line-height: 2; */
+				/* margin: 0vw 0vw 0vw 0vw; */
+				/* padding: 16vh 0vw 0vh 38vw; */
+			}
 		}
 		/*
 		@media screen and (max-width: 3862px) and (orientation: portrait){
@@ -4076,11 +4172,16 @@ input, select, textarea {
 				margin: -3.3vw 0vw 0vw 0vw;
 				padding: 0vh 0vw 0vh 42vw;
 				font-size: 1.225vw;
-				text-align: center;
+				text-align: right;
 				line-height: 1.6;
 			}
 			a {
 				font-size: 1.225vw;
+			}
+			#intro b {
+			    font-size: 1.225vw;
+			    text-align: center;
+			    line-height: 1.6;
 			}
 		}
 		@media screen and (max-height: 16vw) and (orientation: landscape) 
@@ -4106,6 +4207,12 @@ input, select, textarea {
 			a {
 				font-size: 7.66316vh;
 			}
+			#intro b {
+			    font-size: 7.66316vh;
+			    text-align: center;
+			    line-height: 1.6;
+			}
+
 		}
 		@media screen and (max-height: 10vw) and (orientation: landscape) 
 		{
@@ -4129,6 +4236,11 @@ input, select, textarea {
 			}
 			a {
 				font-size: .75vw;
+			}
+			#intro b {
+			    font-size: 0.75vw;
+			    text-align: center;
+			    line-height: 1.6;
 			}
 		}
 		@media screen and (max-height: 8vw) and (orientation: landscape) 
@@ -4154,11 +4266,16 @@ input, select, textarea {
 			a {
 				font-size: .75vw;
 			}
+			#intro b {
+			    font-size: 0.75vw;
+			    text-align: center;
+			    line-height: 1.6;
+			}
 		}
 		@media screen and (max-height: 6vw) and (orientation: landscape) 
 		{
 			ul.actions {
-				margin: -4.1vw 0vw 0vw 0vw;
+				margin: -3.75vw 0vw 0vw 0vw;
 				padding: 0vh 0vh 0vh 85vw;
 			}
 
@@ -4171,12 +4288,17 @@ input, select, textarea {
 			#intro p {
 				margin: -3.3vw 0vw 0vw 0vw;
 				padding: 0vh 0vw 0vh 42vw;
-				font-size: 0.75vw;
+				font-size: 0.65vw;
 				text-align: center;
 				line-height: 1.6;
 			}
 			a {
-				font-size: .75vw;
+				font-size: .65vw;
+			}
+			#intro b {
+			    font-size: 0.65vw;
+			    text-align: center;
+			    line-height: 1.6;
 			}
 		}
 
@@ -4421,6 +4543,8 @@ input, select, textarea {
     /* justify-content: center; */
     /* align-items: center; */
     /* overflow: auto; */
+    /* min-width: 100vw; */
+    /* width: 100vw; */
  }
  /*      test max-height
 @media screen and (max-height: 9999px) 
