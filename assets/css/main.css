@@ -4093,7 +4093,7 @@ input, select, textarea {
 				width: 4vw;
 				height: 4vw;
 				overflow: hidden;
-				margin: 0vw 0vh 0vh 0vh;
+				margin: 0.2vw 0vh 0vh 0vh;
 				padding: 0vh 0vh 0vh 0vh;
 				/* padding: 0; */
 				white-space: nowrap;
