@@ -192,7 +192,7 @@ input, select, textarea {
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-weight: 900;
 		line-height: 1.5;
-		letter-spacing: 0.075em;
+		letter-spacing: 1vw;
 		text-transform: uppercase;
 		margin: 0 0 1rem 0;
 	}
@@ -2091,7 +2091,7 @@ input, select, textarea {
 		cursor: pointer;
 		display: inline-block;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 3vw;
+		font-size: 2.5vw;
 		font-weight: 900;
 		/* letter-spacing: 0.075em; */
 		/* height: 7vw; */
@@ -2181,7 +2181,7 @@ input, select, textarea {
 		input[type="button"].large,
 		button.large,
 		.button.large {
-			font-size: 4vw;
+			font-size: 2.5vw;
 			/* height: 7.1vw; */
 			/* width: 7.1vw; */
 			/* line-height: 1; */
@@ -2210,7 +2210,7 @@ input, select, textarea {
 				input[type="button"].large,
 				button.large,
 				.button.large {
-					font-size: 4vw;
+					/* font-size: 4vw; */
 					/* height: 3.75rem; */
 					/* line-height: 3.75rem; */
 				}
@@ -3484,7 +3484,7 @@ input, select, textarea {
 				transform: translateY(2rem);
 				opacity: 0;
 				visibility: hidden;
-				letter-spacing: 0.3vw;
+				letter-spacing: 0.1vw;
 			}
 		
 
@@ -3515,7 +3515,7 @@ input, select, textarea {
 				/* justify-content: center; */
 				flex-direction: column;
 				/* min-width: 38vw; */
-				letter-spacing: 0.3vw;
+				letter-spacing: 0.1vw;
 				line-height: 1;
 				/* min-height: 13.3vw; */
 				/* height: 0vw; */
@@ -4061,6 +4061,7 @@ input, select, textarea {
 				/* line-height: 0vh; */
 				margin: 0vw 0vh 0vw 0vw;
 				padding: 24vh 36.35555vw 0vh 0vh;
+				letter-spacing: .075em;
 				/* text-align: left; */
 			}
 			#intro p {
@@ -4104,12 +4105,11 @@ input, select, textarea {
 				font-size: 2vw;
 			}
 			.major a {
-			    font-size: 4vw;
+			    font-size: 3.5vw;
 			    letter-spacing: 1vw;
-			    line-height: 1;
 			}
 			.posts h2 a {
-				font-size: 3vw;
+				font-size: 3.5vw;
 			}
 			.posts p {
 				font-size: 1.5vw;
@@ -4123,7 +4123,7 @@ input, select, textarea {
 				/* height: 1vw; */
 			}
 			#header a{
-				font-size: 4.5vw;
+				font-size: 2.5vw;
 			}
 			#header i {
 			    font-size: 3vw;
@@ -4865,7 +4865,7 @@ input, select, textarea {
 						margin: 0vw 0vw 0vw 0vw;
 						padding: 2.5vw 0vw 0vw 0vw;
 						/* line-height: 0; */
-						font-size: 1.7vw;
+						font-size: 1.4vw;
 						width: 12vw;
 						justify-content: center;
 						letter-spacing: 0vw;
