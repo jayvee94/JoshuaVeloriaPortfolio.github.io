@@ -2204,16 +2204,16 @@ input, select, textarea {
 				/* height: 3.25rem; */
 				/* line-height: 3.25rem; */
 			}
-
+				/*
 				input[type="submit"].large,
 				input[type="reset"].large,
 				input[type="button"].large,
 				button.large,
 				.button.large {
-					/* font-size: 4vw; */
-					/* height: 3.75rem; */
-					/* line-height: 3.75rem; */
-				}
+					font-size: 4vw;
+					height: 3.75rem;
+					line-height: 3.75rem;
+				} */
 
 		}
 
