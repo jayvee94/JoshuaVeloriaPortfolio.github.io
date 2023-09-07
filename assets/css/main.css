@@ -2188,23 +2188,23 @@ input, select, textarea {
 			margin: 5vw 0vw 0vw 0vw;
 			padding: 1vw 3vw 1vw 3vw;
 		}
-
+		/*
 		@media screen and (max-width: 980px) {
-			/*
+			
 			.fa-arrow-down::before {
-				font-size: 4rem; /* Adjust the size as needed 
+				font-size: 4rem;  Adjust the size as needed 
 			}
-			*/
+			
 			input[type="submit"],
 			input[type="reset"],
 			input[type="button"],
 			button,
 			.button {
-				font-size: 4vw;
-				/* height: 3.25rem; */
-				/* line-height: 3.25rem; */
+				font-size: 4vw; 
+				height: 3.25rem; 
+				line-height: 3.25rem; 
 			}
-				/*
+				
 				input[type="submit"].large,
 				input[type="reset"].large,
 				input[type="button"].large,
@@ -2213,9 +2213,9 @@ input, select, textarea {
 					font-size: 4vw;
 					height: 3.75rem;
 					line-height: 3.75rem;
-				} */
+				} 
 
-		}
+		}*/
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
 		input[type="reset"].disabled,
