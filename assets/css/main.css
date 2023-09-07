@@ -2991,7 +2991,7 @@ input, select, textarea {
 		}
 
 		header > h2 + p {
-			font-size: 2vw;
+			font-size: 1.5vw;
 			margin-top: -0.75rem;
 		}
 
@@ -3608,12 +3608,13 @@ input, select, textarea {
 /* PORTRAIT #1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 1 / 5~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 		@media screen and (max-width: 9999px) and (orientation:portrait) {
 			#intro h1 {
-				font-size: 7.4vw;
+				font-size: 6.4vh;
 				/* line-height: 0vh; */
 				margin: 0vw 0vw 0vw 0vw;
 				padding: 0vh 3.5vw 10vh 3.5vw;
 				width: 100%;
 				justify-content: center;
+				text-align: left;
 			}
 			#intro p {
 				font-size: 2.1vw;
@@ -3656,7 +3657,7 @@ input, select, textarea {
 				padding: 0vh 0vh 27.5vh 0vh;
 			}
 			header a {
-				font-size: 4vw;
+				font-size: 3.5vw;
 			}
 			i {
 				font-size: 4vw;
@@ -3695,7 +3696,7 @@ input, select, textarea {
 				min-height: 6vw;
 			}
 			.major a {
-				font-size: 4vw;
+				font-size: 3.5vw;
 				letter-spacing: 1vw;
 				line-height: 1;
 			}
@@ -3712,6 +3713,12 @@ input, select, textarea {
 				/* line-height: 2; */
 				/* margin: 0vw 0vw 0vw 0vw; */
 				/* padding: 16vh 0vw 0vh 38vw; */
+			}
+			header > h2 + p {
+			    font-size: 2vw;
+			}
+			h3 {
+				letter-spacing: 0.1vw;
 			}
 		}
 
@@ -4115,6 +4122,7 @@ input, select, textarea {
 				font-size: 1.5vw;
 				display: flex;
 				justify-content: center;
+				line-height: 1.777778;
 			}
 			[class="split contact"] a {
 				font-size: 2vw;
@@ -4144,6 +4152,9 @@ input, select, textarea {
 				/* line-height: 2; */
 				/* margin: 0vw 0vw 0vw 0vw; */
 				/* padding: 16vh 0vw 0vh 38vw; */
+			}
+			h3 {
+				letter-spacing: 0.1vw;
 			}
 		}
 		/*
@@ -4500,8 +4511,8 @@ input, select, textarea {
 				letter-spacing: 0.075em;
 				line-height: 1;
 				/* padding: 1vh 1vh 1vh 1vh; */
-				margin: 0vh 0vh 0vh 0vh;
-				padding: 2vh 2vh 2vh 2vh;
+				margin: 14vh 0vh 0vh 0vh;
+				padding: 1vw 1vw 1vw 1.4vw;
 				/* text-transform: uppercase; */
 				visibility: visible;
 			}
@@ -4513,7 +4524,7 @@ input, select, textarea {
 				height: 10vw;
 				letter-spacing: 0.1vw;
 				line-height: 1;
-				margin: -13.33vw 0vw 0vw 0vw;
+				margin: 0vw 0vw 0vw 0vw;
 				padding: 0vw 0vw 0vw 0vw;
 			}
 		}
