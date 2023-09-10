@@ -2188,34 +2188,6 @@ input, select, textarea {
 			margin: 5vw 0vw 0vw 0vw;
 			padding: 1vw 3vw 1vw 3vw;
 		}
-		/*
-		@media screen and (max-width: 980px) {
-			
-			.fa-arrow-down::before {
-				font-size: 4rem;  Adjust the size as needed 
-			}
-			
-			input[type="submit"],
-			input[type="reset"],
-			input[type="button"],
-			button,
-			.button {
-				font-size: 4vw; 
-				height: 3.25rem; 
-				line-height: 3.25rem; 
-			}
-				
-				input[type="submit"].large,
-				input[type="reset"].large,
-				input[type="button"].large,
-				button.large,
-				.button.large {
-					font-size: 4vw;
-					height: 3.75rem;
-					line-height: 3.75rem;
-				} 
-
-		}*/
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
 		input[type="reset"].disabled,
@@ -2825,35 +2797,6 @@ input, select, textarea {
 					text-align: center;
 					width: 100%;
 				}
-					/* taken out
-					ul.actions:not(.fixed) li > * {
-						width: 100%;
-					}
-						*/
-					ul.actions:not(.fixed) li:first-child {
-					/* margin: 0vh auto 0vh auto; */
-					/* padding: 0px 0vh 0vh 0rem; */
-					vertical-align: middle;
-					}
-					/*       
-					taken out
-					ul.actions:not(.fixed) li input[type="submit"],
-					ul.actions:not(.fixed) li input[type="reset"],
-					ul.actions:not(.fixed) li input[type="button"],
-					ul.actions:not(.fixed) li button,
-					ul.actions:not(.fixed) li .button {
-						width: 100%;
-					} */
-					/*      
-					taken out
-						ul.actions:not(.fixed) li input[type="submit"].icon:before,
-						ul.actions:not(.fixed) li input[type="reset"].icon:before,
-						ul.actions:not(.fixed) li input[type="button"].icon:before,
-						ul.actions:not(.fixed) li button.icon:before,
-						ul.actions:not(.fixed) li .button.icon:before {
-							margin-left: -0.5rem;
-						}
-					*/
 		}
 
 /* Icons */
@@ -3563,25 +3506,10 @@ input, select, textarea {
 				/* margin-bottom: 8vh; */
 			}
 
-
-
-
-
-
-
 			#intro + #header {
 				margin: 0vh 0vh 50vh 0vh;
 				padding: 0vh 0vh 0vh 0vh;
 			}
-			/*
-			#intro h1, p, .actions {
-				margin-top: 1rem;
-				font-size: 7rem;
-				line-height: 1.1;
-				margin-bottom: 1rem;
-			}
-			*/
-		
 
 		@media screen and (max-width: 1440px) {
 
@@ -4165,13 +4093,7 @@ input, select, textarea {
 				letter-spacing: 0.1vw;
 			}
 		}
-		/*
-		@media screen and (max-width: 3862px) and (orientation: portrait){
-			#intro h1 {
-				font-size: 10vw;
-			}
-		}	
-		*/
+
 /* LANDSCAPE #2 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 4 / 5 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 		@media screen and (max-height: 25vw) and (orientation: landscape) 
@@ -4320,134 +4242,6 @@ input, select, textarea {
 			    line-height: 1.6;
 			}
 		}
-
-
-
-
-
-
-		/*
-		@media screen and (max-height: 17.5vw) and (orientation: landscape) 
-		{
-			ul.actions {
-				margin: -4.36vw 0vw 0vw 0vw;
-				padding: 0vh 0vh 0vh 85vw;
-			}
-
-			#intro h1 {
-				margin: 0vw 0vw 0vw 0vw;
-				padding: 32vh 48.35555vw 0vh 0vh;
-				font-size: 3.5vw;
-			}
-
-			#intro p {
-				margin: -3.3vw 0vw 0vw 0vw;
-				padding: 0vh 0vw 0vh 48.75vw;
-				font-size: 1vw;
-			}
-			a {
-				font-size: 1vw;
-			}
-		}
-
-		@media screen and (max-height: 12vw) and (orientation: landscape) 
-		{
-			ul.actions {
-				margin: -4.36vw 0vw 0vw 0vw;
-				padding: 0vh 0vh 0vh 85vw;
-			}
-
-			#intro h1 {
-				margin: 0vw 0vw 0vw 0vw;
-				padding: 24vh 48.35555vw 0vh 0vh;
-				font-size: 3.5vw;
-			}
-
-			#intro p {
-				margin: -3.3vw 0vw 0vw 0vw;
-				padding: 0vh 0vw 0vh 52vw;
-				font-size: 0.875vw;
-			}
-			a {
-				font-size: 0.7vw;
-			}
-		}
-		@media screen and (max-height: 8vw) and (orientation: landscape) 
-		{
-			ul.actions {
-				margin: -4.36vw 0vw 0vw 0vw;
-				padding: 0vh 0vh 0vh 85vw;
-			}
-
-			#intro h1 {
-				margin: 0vw 0vw 0vw 0vw;
-				padding: 16vh 48.35555vw 0vh 0vh;
-				font-size: 3.5vw;
-			}
-
-			#intro p {
-				margin: -3.3vw 0vw 0vw 0vw;
-				padding: 0vh 0vw 0vh 54.75vw;
-				font-size: 0.765625vw;
-			}
-			a {
-				font-size: 0.765625vw;
-			}
-		} */
-
-		/*
-		@media screen and (max-height: 26.68vw) and (orientation: landscape) 
-		{
-			ul.actions {
-				margin: -4.36vw 0vw 0vw 0vw;
-				padding: 0vh 0vh 0vh 79vw;
-			}
-
-			#intro h1 {
-				margin: 0vw 0vw 0vw 0vw;
-				padding: 24vh 36.35555vw 0vh 0vh;
-			}
-
-			#intro p {
-				margin: 0vw 0vw 0vw 0vw;
-				padding: 3.5vw 0vw 0vh 23vw;
-			}
-		}
-		@media screen and (max-height: 20.79vw) and (orientation: landscape) 
-		{
-			ul.actions {
-				margin: -7.36vw 0vw 0vw 0vw;
-				padding: 0vh 0vh 0vh 88vw;
-			}
-
-			#intro h1 {
-				margin: 0vw 0vw 0vw 0vw;
-				padding: 2vw 48.35555vw 0vh 0vh;
-			}
-
-			#intro p {
-				margin: -4vw 0vw 0vw 0vw;
-				padding: 0vw 0vw 0vh 41vw;
-			}
-		}
-		@media screen and (max-height: 10.18vw) and (orientation: landscape) 
-		{
-			ul.actions {
-				margin: -7.9vw 0vw 0vw 0vw;
-				padding: 0vh 0vh 0vh 88vw;
-			}
-
-			#intro h1 {
-				margin: 0vw 0vw 0vw 0vw;
-				padding: 0vw 48.35555vw 0vh 0vh;
-			}
-
-			#intro p {
-				margin: -4vw 0vw 0vw 0vw;
-				padding: 0vw 0vw 0vh 41vw;
-			}
-		}
-		*/
 	
 /* ASPECT RATIO ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 5 / 5 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
@@ -4573,62 +4367,12 @@ input, select, textarea {
     /* min-width: 100vw; */
     /* width: 100vw; */
  }
- /*      test max-height
-@media screen and (max-height: 9999px) 
-{
-	#intro h1
-	{
-		display:flex;
-		margin: 0vh 0vh 0vh 0vh;
-		padding: 0vh 0vh 0vh 0vh;
-		font-size:10vw;
-	}
-*/ 
-
-
-    /* max-width: 1vh; */
-    /* display: flex; */
-    /* font-size: 9vh; */
-    /* margin-top: 24vh; */
-    /* line-height: 1.1; */
-    /* margin-left: 0vh; */
-    /* margin-right: 0vh; */
-    /* justify-content: center; */
-    /* align-items: center; */
-
-
-
 
 			#intro + #header {
 			margin: 0rem 5vw 0vh 5vw;
 			padding: 0vw 0vh 15vw 0vh;
 			}
 			
-				/* font-size: 6vw; */
-			
-		
-	
-/* margin-top: 9vh; */
-	
-/* font-size: 6.5vh; */
-	
-/* line-height: 1.1; */
-	
-/* margin-bottom: 0vh; */
-	
-/* justify-content: flex-end; */
-	
-/* align-items: center; */
-	
-/* width: 100% !important; */
-	
-
-
-
-
-
-		
-
 /* Header */
 
 	#header {
@@ -4661,10 +4405,7 @@ input, select, textarea {
 		text-align: center;
 		z-index: 2;
 	}
-	/*   test01 medium screen 980px moving layout to top
-	@media screen and (max-width: 980px) {
 
-	}*/
 		#header input, #header select, #header textarea {
 			color: #ffffff;
 		}
@@ -4913,15 +4654,7 @@ input, select, textarea {
 			flex-shrink: 0;
 			margin-bottom: 0;
 		}
-		/*
-		@media screen and (max-width: 980px) {
 
-			#nav {
-				display: none; 
-			}
-
-		}
-		*/
 /* Main */
 
 	#main {
@@ -5570,18 +5303,6 @@ input, select, textarea {
 
 		}
 
-		/* taken out
-		@media screen and (max-width: 480px) {
-
-			#footer {
-				width: 100%;
-				max-width: 100vw;
-				display: flex;
-				justify-content: center;
-			}
-
-		}
-		*/
 	#copyright {
 		color: #ffffff;
 		position: relative;
