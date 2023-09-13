@@ -3533,8 +3533,9 @@ input, select, textarea {
 				padding: 0vh 0vh 0vh 0vh;
 			}*/
 		}
-/* PORTRAIT #1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 1 / 5~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* Portrait media query */
 		@media screen and (max-width: 9999px) and (orientation:portrait) {
+			/* main page title */
 			#intro h1 {
 				font-size: 6.4vh;
 				/* line-height: 0vh; */
@@ -3544,6 +3545,7 @@ input, select, textarea {
 				justify-content: center;
 				text-align: left;
 			}
+			/* main page headline */
 			#intro p {
 				font-size: 2.1vw;
 				line-height: 4;
@@ -3553,8 +3555,7 @@ input, select, textarea {
 				text-align: right;
 				/* justify-content: center; */
 			}
-
-			
+			/* main page link */
 			a {
 				font-size: 2.1vw;
 				margin: 0vh 0vh 0vh 0vh;
@@ -3562,6 +3563,7 @@ input, select, textarea {
 				line-height: 0;
 				/* height: 100%; */
 			}
+			/* main page arrow down button */
 			input[type="submit"].icon.solo, input[type="reset"].icon.solo, input[type="button"].icon.solo, button.icon.solo, .button.icon.solo {
 				width: 10vw;
 				height: 10vw;
@@ -3579,19 +3581,23 @@ input, select, textarea {
 				white-space: nowrap;
 				font-size: 6vh;
 			}	
+			/* showcase view project button */
 			input[type="submit"].large, input[type="reset"].large, input[type="button"].large, button.large, .button.large {
 				font-size: 3vw;
 				padding: 2vw 3vw 2vw 3vw;
 			}
+			/* all other view project buttons */
 			input[type="submit"], input[type="reset"], input[type="button"], button, .button {
 				font-size: 3vw;
 				padding: 2vw 3vw 2vw 3vw;
 			}
+			/* main page arrow down button positioning */
 			ul.actions {
 				/* border: 1px; */
 				margin: 0vw 0vw 0vw 0vw;
 				padding: 0vh 0vh 27.5vh 0vh;
 			}
+			/* project titles */
 			header a {
 				font-size: 3.5vw;
 			}
@@ -3658,8 +3664,9 @@ input, select, textarea {
 			}
 		}
 
-/* PORTRAIT #2 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 2 / 5~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* Custom Portrait media queries */
 		@media screen and (max-width: 50vh) and (orientation:portrait) {
+			/* main page title */
 			#intro h1 {
 				font-size: 6.4vh;
 				/* line-height: 0vh; */
@@ -3667,6 +3674,7 @@ input, select, textarea {
 				padding: 0vh 0vh 8vh 1.7vh;
 				text-align: left;
 			}
+			/* main page headline */
 			#intro p {
 				font-size: 2.1vw;
 				line-height: 4;
@@ -3680,8 +3688,7 @@ input, select, textarea {
 				/* display: flex; */
 				/* max-height: 100vw; */
 			}
-
-			
+			/* main page link */
 			a {
 				font-size: 2.1vw;
 				margin: 0vh 0vh 0vh 0vh;
@@ -3689,6 +3696,7 @@ input, select, textarea {
 				line-height: 0;
 				/* height: 100%; */
 			}
+			/* main page arrow down button */
 			input[type="submit"].icon.solo, input[type="reset"].icon.solo, input[type="button"].icon.solo, button.icon.solo, .button.icon.solo {
 				width: 10vw;
 				height: 10vw;
@@ -3706,6 +3714,7 @@ input, select, textarea {
 				white-space: nowrap;
 				font-size: 6vh;
 			}	
+			/* main page arrow down button positioning */
 			ul.actions {
 				/* border: 1px; */
 				margin: 0vw 0vw 0vw 0vw;
@@ -3732,6 +3741,7 @@ input, select, textarea {
 
 
 		@media screen and (max-width: 45vh) and (orientation:portrait) {
+			/* main page title */
 			#intro h1 {
 				font-size: 14vw;
 				/* line-height: 0vh; */
@@ -3739,6 +3749,7 @@ input, select, textarea {
 				padding: 0vh 0vh 8vh 1.7vh;
 				text-align: left;
 			}
+			/* main page headline */
 			#intro p {
 				font-size: 0.944vh;
 				line-height: 4;
@@ -3748,8 +3759,7 @@ input, select, textarea {
 				/* padding: 0vw 0vh 0vh 21vh; */
 				/* display: flex; */
 			}
-
-			
+			/* main page link */
 			a {
 				font-size: 0.944vh;
 				margin: 0vh 0vh 0vh 0vh;
@@ -3757,6 +3767,7 @@ input, select, textarea {
 				line-height: 0;
 				/* height: 100%; */
 			}
+			/* main page arrow down button */
 			input[type="submit"].icon.solo, input[type="reset"].icon.solo, input[type="button"].icon.solo, button.icon.solo, .button.icon.solo {
 				width: 10vw;
 				height: 10vw;
@@ -3774,6 +3785,7 @@ input, select, textarea {
 				white-space: nowrap;
 				font-size: 6vh;
 			}	
+			/* main page arrow down button positioning */
 			ul.actions {
 				/* border: 1px; */
 				margin: 0vw 0vw 0vw 0vw;
@@ -3792,6 +3804,7 @@ input, select, textarea {
 			}
 		}
 		@media screen and (max-width: 40vh) and (orientation:portrait) {
+			/* main page title */
 			#intro h1 {
 				font-size: 5.6vh;
 				/* min-width: auto; */
@@ -3800,6 +3813,7 @@ input, select, textarea {
 				padding: 0vh 0vh 8vh 1.7vh;
 				text-align: left;
 			}
+			/* main page headline */
 			#intro p {
 				font-size: 0.944vh;
 				line-height: 4;
@@ -3807,8 +3821,7 @@ input, select, textarea {
 				padding: 0vw 0vh 7vh 19vw;
 				/* display: flex; */
 			}
-
-			
+			/* main page link */
 			a {
 				font-size: 0.944vh;
 				margin: 0vh 0vh 0vh 0vh;
@@ -3816,6 +3829,7 @@ input, select, textarea {
 				line-height: 0;
 				/* height: 100%; */
 			}
+			/* main page arrow down button */
 			input[type="submit"].icon.solo, input[type="reset"].icon.solo, input[type="button"].icon.solo, button.icon.solo, .button.icon.solo {
 				width: 10vw;
 				height: 10vw;
@@ -3833,6 +3847,7 @@ input, select, textarea {
 				white-space: nowrap;
 				font-size: 6vh;
 			}	
+			/* main page arrow down button positioning */
 			ul.actions {
 				/* border: 1px; */
 				margin: 0vw 0vw 0vw 0vw;
@@ -3851,6 +3866,7 @@ input, select, textarea {
 			}
 		}
 		@media screen and (max-width: 35vh) and (orientation:portrait) {
+			/* main page title */
 			#intro h1 {
 				font-size: 5.6vh;
 				/* line-height: 0vh; */
@@ -3858,6 +3874,7 @@ input, select, textarea {
 				padding: 0vh 0vh 8vh 1.7vh;
 				text-align: left;
 			}
+			/* main page headline */
 			#intro p {
 				font-size: 0.944vh;
 				line-height: 4;
@@ -3865,8 +3882,7 @@ input, select, textarea {
 				padding: 0vw 0vh 7vw 11vw;
 				/* display: flex; */
 			}
-
-			
+			/* main page link */
 			a {
 				font-size: 0.944vh;
 				margin: 0vh 0vh 0vh 0vh;
@@ -3874,6 +3890,7 @@ input, select, textarea {
 				line-height: 0;
 				/* height: 100%; */
 			}
+			/* main page arrow down button */
 			input[type="submit"].icon.solo, input[type="reset"].icon.solo, input[type="button"].icon.solo, button.icon.solo, .button.icon.solo {
 				width: 10vw;
 				height: 10vw;
@@ -3891,6 +3908,7 @@ input, select, textarea {
 				white-space: nowrap;
 				font-size: 6vh;
 			}	
+			/* main page arrow down button positioning */
 			ul.actions {
 				/* border: 1px; */
 				margin: 0vw 0vw 0vw 0vw;
@@ -3911,6 +3929,7 @@ input, select, textarea {
 
 				
 		@media screen and (max-width: 30vh) and (orientation:portrait) {
+			/* main page title */
 			#intro h1 {
 				font-size: 5.6vh;
 				/* line-height: 0vh; */
@@ -3918,6 +3937,7 @@ input, select, textarea {
 				padding: 0vh 0vh 8vh 0vh;
 				text-align: center;
 			}
+			/* main page headline */
 			#intro p {
 				font-size: 0.944vh;
 				line-height: 4;
@@ -3929,8 +3949,7 @@ input, select, textarea {
 				/* display: flex; */
 				white-space: nowrap;
 			}
-
-			
+			/* main page link */
 			a {
 				font-size: 0.944vh;
 				margin: 0vh 0vh 0vh 0vh;
@@ -3938,6 +3957,7 @@ input, select, textarea {
 				line-height: 0;
 				/* height: 100%; */
 			}
+			/* main page arrow down button */
 			input[type="submit"].icon.solo, input[type="reset"].icon.solo, input[type="button"].icon.solo, button.icon.solo, .button.icon.solo {
 				width: 10vw;
 				height: 10vw;
@@ -3955,6 +3975,7 @@ input, select, textarea {
 				white-space: nowrap;
 				font-size: 6vh;
 			}	
+			/* main page arrow down button positioning */
 			ul.actions {
 				/* border: 1px; */
 				margin: 0vw 0vw 0vw 0vw;
@@ -3980,9 +4001,10 @@ input, select, textarea {
 			}
 			
 		}
-/* LANDSCAPE #1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 3 / 5~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* Landscape media query */
 		@media screen and (max-height: 9999px) and (orientation: landscape)
 		{
+			/* main page arrow down button positioning */
 			ul.actions {
 				display: -moz-flex;
 				/* display: -webkit-flex; */
@@ -3999,6 +4021,7 @@ input, select, textarea {
 				padding: 0vh 0vw 0vw 0vw;
 				/* overflow: hidden; */
 			}
+			/* main page title */
 			#intro h1 {
 				font-size: 4vw;
 				/* line-height: 0vh; */
@@ -4007,6 +4030,7 @@ input, select, textarea {
 				letter-spacing: .075em;
 				/* text-align: left; */
 			}
+			/* main page headline */
 			#intro p {
 				font-size: 1.4vw;
 				line-height: 2;
@@ -4018,11 +4042,7 @@ input, select, textarea {
 				display: flex;
 				justify-content: flex-start;
 			}
-
-
-			intro {
-			    justify-content: flex=start;
-			}
+			/* main page link */
 			a {
 				font-size: 1.4vw;
 				margin: 0vh 0vh 0vh 0vh;
@@ -4030,6 +4050,7 @@ input, select, textarea {
 				/* line-height: 0; */
 				/* height: 100%; */
 			}
+			/* main page arrow down button */
 			input[type="submit"].icon.solo, input[type="reset"].icon.solo, input[type="button"].icon.solo, button.icon.solo, .button.icon.solo {
 				width: 10vw;
 				height: 10vw;
@@ -4094,21 +4115,22 @@ input, select, textarea {
 			}
 		}
 
-/* LANDSCAPE #2 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 4 / 5 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* Custom Landscape media queries */
 
 		@media screen and (max-height: 25vw) and (orientation: landscape) 
 		{
+			/* main page arrow down button positioning */
 			ul.actions {
 				margin: -4.36vw 0vw 0vw 0vw;
 				padding: 0vh 0vh 0vh 85vw;
 			}
-
+			/* main page title */
 			#intro h1 {
 				margin: 0vw 0vw 0vw 0vw;
 				padding: 40vh 48.35555vw 0vh 0vh;
 				font-size: 3.5vw;
 			}
-
+			/* main page headline */
 			#intro p {
 				margin: -3.3vw 0vw 0vw 0vw;
 				padding: 0vh 0vw 0vh 42vw;
@@ -4116,6 +4138,7 @@ input, select, textarea {
 				text-align: right;
 				line-height: 1.6;
 			}
+			/* main page link */
 			a {
 				font-size: 1.225vw;
 			}
@@ -4127,17 +4150,18 @@ input, select, textarea {
 		}
 		@media screen and (max-height: 16vw) and (orientation: landscape) 
 		{
+			/* main page arrow down button positioning */
 			ul.actions {
 				margin: -4.36vw 0vw 0vw 0vw;
 				padding: 0vh 0vh 0vh 85vw;
 			}
-
+			/* main page title */
 			#intro h1 {
 				margin: 0vw 0vw 0vw 0vw;
 				padding: 32vh 48.35555vw 0vh 0vh;
 				font-size: 3.5vw;
 			}
-
+			/* main page headline */
 			#intro p {
 				margin: -3.3vw 0vw 0vw 0vw;
 				padding: 0vh 0vw 0vh 42vw;
@@ -4145,6 +4169,7 @@ input, select, textarea {
 				text-align: center;
 				line-height: 1.6;
 			}
+			/* main page link */
 			a {
 				font-size: 7.66316vh;
 			}
@@ -4157,17 +4182,18 @@ input, select, textarea {
 		}
 		@media screen and (max-height: 10vw) and (orientation: landscape) 
 		{
+			/* main page arrow down button positioning */
 			ul.actions {
 				margin: -4vw 0vw 0vw 0vw;
 				padding: 0vh 0vh 0vh 85vw;
 			}
-
+			/* main page title */
 			#intro h1 {
 				margin: 0vw 0vw 0vw 0vw;
 				padding: 24vh 48.35555vw 0vh 0vh;
 				font-size: 3.5vw;
 			}
-
+			/* main page headline */
 			#intro p {
 				margin: -3.3vw 0vw 0vw 0vw;
 				padding: 0vh 0vw 0vh 42vw;
@@ -4175,6 +4201,7 @@ input, select, textarea {
 				text-align: center;
 				line-height: 1.6;
 			}
+			/* main page link */
 			a {
 				font-size: .75vw;
 			}
@@ -4186,17 +4213,18 @@ input, select, textarea {
 		}
 		@media screen and (max-height: 8vw) and (orientation: landscape) 
 		{
+			/* main page arrow down button positioning */
 			ul.actions {
 				margin: -4vw 0vw 0vw 0vw;
 				padding: 0vh 0vh 0vh 85vw;
 			}
-
+			/* main page title */
 			#intro h1 {
 				margin: 0vw 0vw 0vw 0vw;
 				padding: 16vh 48.35555vw 0vh 0vh;
 				font-size: 3.5vw;
 			}
-
+			/* main page headline */
 			#intro p {
 				margin: -3.3vw 0vw 0vw 0vw;
 				padding: 0vh 0vw 0vh 42vw;
@@ -4204,6 +4232,7 @@ input, select, textarea {
 				text-align: center;
 				line-height: 1.6;
 			}
+			/* main page link */
 			a {
 				font-size: .75vw;
 			}
@@ -4215,17 +4244,18 @@ input, select, textarea {
 		}
 		@media screen and (max-height: 6vw) and (orientation: landscape) 
 		{
+			/* main page arrow down button positioning */
 			ul.actions {
 				margin: -3.75vw 0vw 0vw 0vw;
 				padding: 0vh 0vh 0vh 85vw;
 			}
-
+			/* main page title */
 			#intro h1 {
 				margin: 0vw 0vw 0vw 0vw;
 				padding: 8vh 48.35555vw 0vh 0vh;
 				font-size: 3.5vw;
 			}
-
+			/* main page headline */
 			#intro p {
 				margin: -3.3vw 0vw 0vw 0vw;
 				padding: 0vh 0vw 0vh 42vw;
@@ -4233,6 +4263,7 @@ input, select, textarea {
 				text-align: center;
 				line-height: 1.6;
 			}
+			/* main page link */
 			a {
 				font-size: .65vw;
 			}
@@ -4243,9 +4274,10 @@ input, select, textarea {
 			}
 		}
 	
-/* ASPECT RATIO ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 5 / 5 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* 1:1 Aspect Ratio Media Query */
 
 		@media screen and (aspect-ratio: 1/1) {
+			/* main page arrow down button positioning */
 			ul.actions {
 				display: -moz-flex;
 				display: -webkit-flex;
@@ -4262,11 +4294,13 @@ input, select, textarea {
 				padding: 0vh 0vw 30vw 0vw;
 				overflow: hidden;
 			}
+			/* main page title */
 			#intro h1 {
 				font-size: 6.4vh;
 				margin: 0vh 0vh 0vh 0vh;
 				padding: 0vh 0vh 5vh 0vh;
 			}
+			/* main page headline */
 			#intro p {
 				font-size: 2.1vw;
 				line-height: 3;
@@ -4274,13 +4308,13 @@ input, select, textarea {
 				padding: 0vh 0vh 1.7vh 0vh;
 				text-align: center;
 			}
+			/* main page link */
 			a {
 				font-size: 2.5vw;
 				margin: 0vw 0vw 0vw 0vw;
 				padding: 0vw 0vw 0vw 0vw;
 			}
-
-			
+			/* main page arrow down button */
 			input[type="submit"].icon.solo, input[type="reset"].icon.solo, input[type="button"].icon.solo, button.icon.solo, .button.icon.solo {
 				width: 10vw;
 				height: 10vw;
@@ -4329,10 +4363,12 @@ input, select, textarea {
 				margin: 0vw 0vw 0vw 0vw;
 				padding: 0vw 0vw 0vw 0vw;
 			}
+			/* showcase view project button */
 			input[type="submit"].large, input[type="reset"].large, input[type="button"].large, button.large, .button.large {
 				font-size: 2.5vw;
 				padding: 1vw 3vw 1vw 3vw;
 			}
+			/* all other view project buttons */
 			input[type="submit"], input[type="reset"], input[type="button"], button, .button {
 				font-size: 2.5vw;
 				padding: 1vw 3vw 1vw 3vw;
