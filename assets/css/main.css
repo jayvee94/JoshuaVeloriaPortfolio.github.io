@@ -3601,13 +3601,12 @@ input, select, textarea {
 			header a {
 				font-size: 3.5vw;
 			}
-			i {
-				font-size: 4vw;
-			}
+			/* project titles */
 			h2 a {
 				letter-spacing: 0.3vw;
 				line-height: 1;
 			}
+			/* project descriptions */
 			article p {
 				font-size: 2vw;
 				text-align: center;
@@ -3618,9 +3617,11 @@ input, select, textarea {
 			#footer h3 {
 				font-size: 2vw;
 			}
+			/* personal info */
 			#footer a {
 				font-size: 2vw;
 			}
+			/* logo button */
 			#header .logo {
 			    font-size: 4.5vw;
 			    letter-spacing: 0vw;
@@ -3637,11 +3638,13 @@ input, select, textarea {
 				line-height: 0.85;
 				min-height: 6vw;
 			}
+			/* showcased project */
 			.major a {
 				font-size: 3.5vw;
 				letter-spacing: 0.3vw;
 				line-height: 1;
 			}
+			/* logo button */
 			#header .logo {
 				margin: 15vw 5vw 0vw 5vw;
 				padding: 1vw 1vw 1vw 1.4vw;
@@ -3656,9 +3659,11 @@ input, select, textarea {
 				/* margin: 0vw 0vw 0vw 0vw; */
 				/* padding: 16vh 0vw 0vh 38vw; */
 			}
+			/* showcased project description */
 			header > h2 + p {
 			    font-size: 2vw;
 			}
+			/* location, resume, email */
 			h3 {
 				letter-spacing: 0.1vw;
 			}
@@ -3725,6 +3730,7 @@ input, select, textarea {
 			    text-align: center;
 			    line-height: 4;
 			}
+			/* mainpage headline */
 			#intro p {
 			    font-size: 2.1vw;
 			    line-height: 4;
@@ -3732,9 +3738,6 @@ input, select, textarea {
 			    padding: 0vh 4vw 7vh 0vw;
 			    width: 100vw;
 			    text-align: right;
-			}
-			#intro strong {
-			    font-size: 2.1vw;
 			}
 		}
 
@@ -3791,6 +3794,7 @@ input, select, textarea {
 				margin: 0vw 0vw 0vw 0vw;
 				padding: 0vh 0vh 27.5vh 0vh;
 			}
+			/* main page headline */
 			#intro p {
 			    font-size: 0.944vh;
 			    line-height: 4;
@@ -3798,9 +3802,6 @@ input, select, textarea {
 			    padding: 0vh 4vw 7vh 0vw;
 			    width: 100vw;
 			    text-align: right;
-			}
-			#intro strong {
-			    font-size: 0.944vh;
 			}
 		}
 		@media screen and (max-width: 40vh) and (orientation:portrait) {
@@ -3853,6 +3854,7 @@ input, select, textarea {
 				margin: 0vw 0vw 0vw 0vw;
 				padding: 0vh 0vh 27.5vh 0vh;
 			}
+			/* main page headline */
 			#intro p {
 			    font-size: 0.944vh;
 			    line-height: 4;
@@ -3860,9 +3862,6 @@ input, select, textarea {
 			    padding: 0vh 4vw 7vh 0vw;
 			    width: 100vw;
 			    text-align: right;
-			}
-			#intro strong {
-			    font-size: 0.944vh;
 			}
 		}
 		@media screen and (max-width: 35vh) and (orientation:portrait) {
@@ -3914,6 +3913,7 @@ input, select, textarea {
 				margin: 0vw 0vw 0vw 0vw;
 				padding: 0vh 0vh 27.5vh 0vh;
 			}
+			/* main page headline */
 			#intro p {
 			    font-size: 0.944vh;
 			    line-height: 4;
@@ -3921,9 +3921,6 @@ input, select, textarea {
 			    padding: 0vh 4vw 7vh 0vw;
 			    width: 100vw;
 			    text-align: right;
-			}
-			#intro strong {
-			    font-size: 0.944vh;
 			}
 		}
 
@@ -3981,6 +3978,7 @@ input, select, textarea {
 				margin: 0vw 0vw 0vw 0vw;
 				padding: 0vh 0vh 27.5vh 0vh;
 			}
+			/* main page headline */
 			#intro p {
 			    font-size: 0.944vh;
 			    line-height: 4;
@@ -3994,12 +3992,7 @@ input, select, textarea {
 			    /* justify-content: center; */
 			    white-space: nowrap;
 			    width: auto;
-			}
-			#intro strong {
-			    font-size: 0.944vh;
-			    white-space: nowrap;
-			}
-			
+			}	
 		}
 /* Landscape media query */
 		@media screen and (max-height: 9999px) and (orientation: landscape)
@@ -4037,7 +4030,7 @@ input, select, textarea {
 				margin: 0vw 0vw 0vw 0vw;
 				padding: 16vh 0vw 0vh 35vw;
 			}
-
+			/* main page */
 			#intro {
 				display: flex;
 				justify-content: flex-start;
@@ -4065,28 +4058,30 @@ input, select, textarea {
 				font-size: 2.8vw;
 				border-radius: 50%;
 			}
-			i{
-				font-size: 2vw;
-			}
+			/* showcased project */
 			.major a {
 			    font-size: 3.5vw;
 			    letter-spacing: 0.3vw;
 			}
+			/* project titles */
 			.posts h2 a {
 				font-size: 3.5vw;
 			}
+			/* project descriptions */
 			.posts p {
 				font-size: 1.5vw;
 				display: flex;
 				justify-content: center;
 				line-height: 1.777778;
 			}
+			/* personal info resume and email */
 			[class="split contact"] a {
 				font-size: 2vw;
 				line-height: 1;
 				/* display: flex; */
 				/* height: 1vw; */
 			}
+			/* logo button */
 			#header a{
 				font-size: 2.5vw;
 			}
@@ -4096,6 +4091,7 @@ input, select, textarea {
 			    line-height: 0.85;
 			    min-height: 6vw;
 			}
+			/* logo button */
 			#header .logo {
 				margin: 15vw 5vw 0vw 5vw;
 				padding: 1vw 1vw 1vw 1.4vw;
@@ -4110,6 +4106,7 @@ input, select, textarea {
 				/* margin: 0vw 0vw 0vw 0vw; */
 				/* padding: 16vh 0vw 0vh 38vw; */
 			}
+			/* location, resume, email */
 			h3 {
 				letter-spacing: 0.1vw;
 			}
@@ -4332,6 +4329,7 @@ input, select, textarea {
 				white-space: nowrap;
 				font-size: 5vh;
 			}	
+			/* logo button */
 			#header .logo {
 				-moz-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, -moz-transform 0.5s ease, visibility 0.5s;
 				-webkit-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, -webkit-transform 0.5s ease, visibility 0.5s;
@@ -4352,7 +4350,7 @@ input, select, textarea {
 				/* text-transform: uppercase; */
 				visibility: visible;
 			}
-			
+			/* project titles */
 			h2 a {
 				/* display: flex; */
 				justify-content: center;
